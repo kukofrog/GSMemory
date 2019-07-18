@@ -64,7 +64,7 @@ const Header = ({setDropdown, children}) => {
             <Positioner>
                 <WhiteBackground>
                     <HeaderContents >
-                        <Logo to='/'>DOTIA</Logo>
+                        <Logo to='/'>GSMemory</Logo>
                         <Spacer onClick={()=>{setDropdown(false)}}/>
                         {children}
                     </HeaderContents>
