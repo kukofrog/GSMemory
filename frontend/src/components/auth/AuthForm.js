@@ -103,7 +103,7 @@ const AuthForm = () => {
             <IntroSection>
                 <Mask />
                 <TitleWrapper>
-                    <ToHome to='/'><Title>Dotia</Title></ToHome>
+                    <ToHome to='/'><Title>GSMemory</Title></ToHome>
                 </TitleWrapper>
                 <Route path='/auth/signin' component={SignIn} />
                 <Route path='/auth/signup' component={SignUp} />

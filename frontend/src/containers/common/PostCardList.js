@@ -149,7 +149,6 @@ const PostCardList = ({postList, loadMore, getList, deleteList, getUserPostList,
         </NewPostButtonTextWrapper>
       </NewPostButton>
     </Link>
-    <LoadMoreButton onClick={loadMore}>Load More</LoadMoreButton>
     </>
   );
 }
